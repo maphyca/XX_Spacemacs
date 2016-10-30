@@ -47,7 +47,8 @@
      (python :variables
              python-test-runner '(nose pytest))
      (ruby :variables ruby-enable-enh-ruby-mode t
-           ruby-version-manager 'chruby)
+           ruby-version-manager 'rbenv
+           )
      ruby-on-rails
      lua
      html
